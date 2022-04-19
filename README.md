@@ -19,7 +19,7 @@ I made this for my personal use for one of my projects that needs it.
 
 First clone the repo and then `cd` into it.
 
-`git clone https://github.com/hackwithdavid/rss-to-json-worker.git`
+`git clone https://github.com/davmixcool/rss-to-json-worker.git`
 
 `cd rss-to-json-worker`
 
