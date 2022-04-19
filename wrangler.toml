@@ -1,0 +1,7 @@
+name = "xml-to-json"
+type = "webpack"
+
+account_id = "eadd5e694ea3d2ccce82a72e127173a7"
+workers_dev = true
+route = ""
+zone_id = ""
