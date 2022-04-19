@@ -50,8 +50,9 @@ async function handleRequest(event) {
 	const originalBody = await originalResponse.text(); 
 	const body = JSON.stringify({ feed: await parser.parseString(originalBody)}); 
 	response = new Response(body, response); 
-	response.headers.set("Access-Control-Allow-Origin", "*")
-	response.headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+	response.headers.set("Access-Control-Allow-Origin", "*");
+	response.headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+    response.headers.set("content-type", "application/json;charset=UTF-8");
 	
 	return cacheResponse(event, response);
 
